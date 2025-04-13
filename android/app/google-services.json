@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "475822111600",
+    "project_id": "gp-arabic-search-engine",
+    "storage_bucket": "gp-arabic-search-engine.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:475822111600:android:5f3e226a1522ef9846adb5",
+        "android_client_info": {
+          "package_name": "com.example.sign_up"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD9iIuqCm-seeEyLmFbO6a4dtwu-tKrXdA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
