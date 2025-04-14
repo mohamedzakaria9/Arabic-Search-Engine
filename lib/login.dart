@@ -36,10 +36,25 @@ class _LoginPageState extends State<login> {
         MaterialPageRoute(builder: (context) => const home()),
       );
     } catch (e) {
-      ScaffoldMessenger.of(context).showSnackBar(
-        SnackBar(content: Text("خطأ في تسجيل الدخول: ${e.toString()}")),
+      showDialog(
+        context: context,
+        builder: (BuildContext context) {
+          return AlertDialog(
+            title: const Text("تنبيه"),
+            content: const Text("خطأ في تسجيل الدخول"),
+            actions: [
+              TextButton(
+                child: const Text("حسناً"),
+                onPressed: () {
+                  Navigator.of(context).pop(); // Close the dialog
+                },
+              ),
+            ],
+          );
+        },
       );
     }
+
   }
 
   @override
