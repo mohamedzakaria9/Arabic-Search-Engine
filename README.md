@@ -1,4 +1,4 @@
-# sign_up
+# Arabic Book Search Engine
 
 A new Flutter project.
 
